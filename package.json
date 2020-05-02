@@ -1,0 +1,8 @@
+{
+  "name": "vimp_ext",
+  "version": "1.0.0",
+  "description": "Chrome(-ium) browser plugin that provides minor tweaks for the vimp.oth-regensburg.de platform",
+  "author": "Lukas Wolfsteiner",
+  "license": "MIT",
+  "devDependencies": {}
+}

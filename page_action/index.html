@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Import bootstrap styles from vimp.oth-regensburg.de -->
+    <link href="https://vimp.oth-regensburg.de/css/pacific.layout.min.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://vimp.oth-regensburg.de/css/dark.css">
+    <style>
+        html {
+            width: 18rem;
+            padding-bottom: 0.5rem !important;
+        }
+
+        .row {
+            margin: 0.25rem !important;
+        }
+
+        .col {
+            display: inline-flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h3>
+                <a href="https://gitlab.oth-regensburg.de/wol32832/VIMP_ext">VIMP_ext</a> <span
+                    class="badge badge-info">v1.0.0</span>
+            </h3>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="buttonDownloadVideo">Found media file!</label>
+            </div>
+
+            <div class="col">
+                <button class="btn btn-default" type="button" id="buttonDownloadVideo">Download MP4</button>
+            </div>
+            <script src="/page_action/vimp-download-button.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

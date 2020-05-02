@@ -1,0 +1,46 @@
+{
+    "manifest_version": 2,
+    "name": "VIMP_ext",
+    "description": "Chrome(-ium) browser plugin that provides minor tweaks for the vimp.oth-regensburg.de platform",
+    "version": "1.0.0",
+    "author": "Lukas Wolfsteiner",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "page_action": {
+        "default_title": "VIMP_ext",
+        "default_popup": "page_action/index.html",
+        "default_icon": {
+            "16": "images/get_started16.png",
+            "32": "images/get_started32.png",
+            "48": "images/get_started48.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://vimp.oth-regensburg.de/video/*",
+                "*://elearning.uni-regensburg.de/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "images/get_started16.png",
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png"
+    },
+    "permissions": [
+        "background",
+        "activeTab",
+        "declarativeContent",
+        "downloads",
+        "*://vimp.oth-regensburg.de/video/*",
+        "*://elearning.uni-regensburg.de/*"
+    ]
+}
