@@ -22,8 +22,7 @@
     "content_scripts": [
         {
             "matches": [
-                "*://vimp.oth-regensburg.de/video/*",
-                "*://elearning.uni-regensburg.de/*"
+                "<all_urls>"
             ],
             "js": [
                 "content.js"
