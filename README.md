@@ -23,3 +23,9 @@ _chrome(-ium) browser plugin that provides minor tweaks for the [vimp.oth-regens
 ![art/screenshot_load_ext.png](https://gitlab.oth-regensburg.de/wol32832/VIMP_ext/raw/master/art/screenshot_load_ext.png)
 
 3. browser either [elearning.uni-regensburg.de](https://elearning.uni-regensburg.de) or [vimp.oth-regensburg.de](https://vimp.oth-regensburg.de/), it detects media files on both sites.
+
+## [license](#license)
+
+copyright (c) 2020 lukas 'dotwee' wolfsteiner <lukas@wolfsteiner.media>
+
+licensed under the [_do what the fuck you want to_](/LICENSE) public license
